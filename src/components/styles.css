@@ -1,0 +1,195 @@
+/* Styles for main container */
+.main-div {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the input and add button */
+  .addItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for each item */
+  .eachitems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .eachitems h3 {
+    margin: 0;
+    flex: 1;
+  }
+  
+  /* Styles for the edit and remove buttons */
+  .todo-btn button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 5px 10px;
+  }
+  
+  .todo-btn button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the "Check List" button */
+  .showItems button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .showItems button:hover {
+    background-color: #c0392b;
+  }
+  body {
+    background-color: #333; /* Dark background color for the body */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-div {
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto; /* Center the main div */
+    padding: 20px;
+    background-color: #fff; /* Card background color */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for the card */
+  }
+  
+  /* Styles for the image */
+  img {
+    border-radius: 50%; /* Make the image round */
+    width: 100px; /* Adjust the image size as needed */
+    height: 100px; /* Adjust the image size as needed */
+  }
+  
+  /* Styles for "Add your List" text */
+  figcaption {
+    font-weight: bold; /* Make the text bolder */
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    margin-top: 10px;
+  }
+/* Styles for main container */
+body {
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-div {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Display items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+/* Styles for the image */
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px; /* Add some space below the image */
+}
+
+/* Styles for "Add your List" text */
+figcaption {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Styles for the input field */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+}
+
+/* Styles for the "+" button */
+button {
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Styles for the list items */
+.eachitems {
+  display: flex;
+  justify-content: space-between; /* Items on the left and right */
+  align-items: center; /* Center items vertically */
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Styles for the edit/delete buttons */
+.todo-btn button {
+  margin-left: 10px; /* Add some space between the buttons */
+}
+
+  
